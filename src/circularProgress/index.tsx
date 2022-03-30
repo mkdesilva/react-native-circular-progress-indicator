@@ -9,7 +9,7 @@ import Animated, {
   runOnJS,
   useDerivedValue,
 } from "react-native-reanimated";
-import { CircularProgressProps } from "./types";
+import { CircularProgressProps, CircularStyleProps } from "./types";
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 const AnimatedInput = Animated.createAnimatedComponent(TextInput);
@@ -46,7 +46,7 @@ const CircularProgress: React.FC<CircularProgressProps> = ({
   subtitleColor,
   subtitleFontSize,
 }) => {
-  const styleProps = {
+  const styleProps: CircularStyleProps = {
     radius,
     textColor,
     fontSize,
@@ -181,7 +181,7 @@ const CircularProgress: React.FC<CircularProgressProps> = ({
   );
 };
 
-export const dynamicStyles = (props) => {
+export const dynamicStyles = (props: CircularStyleProps) => {
   return StyleSheet.create({
     fromProps: {
       fontSize: props.fontSize || props.textStyle?.fontSize || props.radius / 2,
