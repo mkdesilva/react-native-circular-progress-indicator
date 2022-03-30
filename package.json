@@ -1,5 +1,5 @@
 {
-  "name": "react-native-circular-progress-indicator",
+  "name": "react-native-circular-progress-view",
   "version": "2.0.6",
   "description": "React Native customizable circular progress indicator",
   "main": "index",
@@ -12,7 +12,7 @@
   "repository": {
     "name": "GitHub",
     "type": "git",
-    "url": "git+https://github.com/nithinpp69/react-native-circular-progress-indicator.git"
+    "url": "git+https://github.com/mkdesilva/react-native-circular-progress-indicator.git"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -20,12 +20,12 @@
     "react-native-reanimated": ">=2.2.0",
     "react-native-svg": "^12.1.1"
   },
-  "author": "Nithin P P <nithinpp69@gmail.com>",
+  "author": "MK de Silva <dev.mkdesilva@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nithinpp69/react-native-circular-progress-indicator/issues"
+    "url": "https://github.com/mkdesilva/react-native-circular-progress-indicator/issues"
   },
-  "homepage": "https://github.com/nithinpp69/react-native-circular-progress-indicator.git",
+  "homepage": "https://github.com/mkdesilva/react-native-circular-progress-indicator.git",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.10.2",
