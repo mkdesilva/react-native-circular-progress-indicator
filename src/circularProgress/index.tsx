@@ -181,7 +181,7 @@ const CircularProgress: React.FC<CircularProgressProps> = ({
   );
 };
 
-export const dynamicStyles = (props) => {
+export const dynamicStyles = (props: any) => {
   return StyleSheet.create({
     fromProps: {
       fontSize: props.fontSize || props.textStyle?.fontSize || props.radius / 2,
