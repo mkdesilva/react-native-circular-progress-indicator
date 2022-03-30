@@ -51,7 +51,7 @@ yarn add react-native-circular-progress-view
 ## Example
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -79,7 +79,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### with value prefix/suffix
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -105,7 +105,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### with callback function
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -125,7 +125,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### custom
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -167,7 +167,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### use as a countdown timer
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -190,7 +190,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### with gradient effect
 
 ```
-import CircularProgress from 'react-native-circular-progress-indicator';
+import CircularProgress from 'react-native-circular-progress-view';
 
 ....
 
@@ -207,7 +207,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 #### with multiple child
 
 ```
-import { CircularProgressWithChild } from 'react-native-circular-progress-indicator';
+import { CircularProgressWithChild } from 'react-native-circular-progress-view';
 
 // accepts any react element as child
 ....
